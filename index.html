@@ -95,10 +95,25 @@ dot("body")
 		).tr(
 			dot.th("Price").colspan(3)
 		).tr(
-			dot.td("Now on sale!").td("FREE!").td("NOT FREE")
-		)
+			dot.td("Now on sale!").td("FREE!").td("CHEAP!")
+		).tr(
+			dot.th("Download Links").colspan(3)
+		).tr(
+			dot.td("Chrome").td(
+				dot.a("Download").href("https://chrome.google.com/webstore/detail/gatsio-community-patch-ba/dhhbmhmmijeofbhogipjdoagmjfiajlc").target("_blank")
+			).td(
+				dot.a("Download").href("https://chrome.google.com/webstore/detail/gatsio-community-patch-pr/nnmeklnnflehmnoiofdbpkejpefghdaa").target("_blank")
+			)
+		)/*.tr(
+			dot.td("Other Browsers").td(
+				"Coming"
+			).td(
+				"Soon"
+			)
+		)*/
 	).class("patch-feature-table")
-	.br().p("UPLOAD IS PENDING")
+	.br()
+	.p("Coming soon to more browsers.")
 	.br().br().br().br().br().br()
 ).class("contentstrip");
 
