@@ -1,0 +1,25 @@
+body{
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	background-color: darkslategray;
+	background-attachment: fixed;
+	background-size:cover;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.contentstrip{
+	display: inline-block;
+	width: 1024px;
+	background-color: honeydew;
+	font-size: 18px;
+}
+
+.patch-feature-table{
+	text-align: left;
+	margin: auto;
+}
+
+.patch-feature-table th, td {
+    border-bottom: 1px solid #ddd;
+}
