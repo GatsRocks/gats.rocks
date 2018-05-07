@@ -84,9 +84,13 @@ dot("body")
 		).tr(
 			dot.td("Partial fix for sticky directions.").td("✅").td("✅")
 		).tr(
+			dot.td("Partial fix for sticky trigger.").td("✅").td("✅")
+		).tr(
 			dot.td("Fixes sticky reload.").td("✅").td("✅")
 		).tr(
-			dot.td("Fixed translucent players.").td("✅").td("✅")
+			dot.td("Fixes translucent players.").td("✅").td("✅")
+		).tr(
+			dot.td("Fixes thermal flickering.").td("✅").td("✅")
 		).tr(
 			dot.th("Boss features!").colspan(3)
 		).tr(
@@ -107,16 +111,23 @@ dot("body")
 			).td(
 				dot.a("Download").href("https://chrome.google.com/webstore/detail/gatsio-community-patch-pr/nnmeklnnflehmnoiofdbpkejpefghdaa").target("_blank")
 			)
-		)/*.tr(
-			dot.td("Other Browsers").td(
-				"Coming"
+			).tr(
+				dot.td("Firefox").td(
+				dot.a("Download").href("https://addons.mozilla.org/en-US/firefox/addon/gats-io-community-patch-basic/").target("_blank")
 			).td(
-				"Soon"
+				"N/A"
 			)
-		)*/
+			).tr(
+				dot.td("Opera").td(
+					//dot.a("Download").href("https://addons.mozilla.org/en-US/firefox/addon/gats-io-community-patch-basic/").target("_blank")
+					"Awaiting moderation."
+				).td(
+					"N/A"
+				)
+			)
 	).class("patch-feature-table")
 	.br()
-	.p("Coming soon to more browsers.")
+	.p("Email me if you use any other browsers to request a port of the patch. I won't be patching Safari because they don't seem to accept submissions for people who don't own Macs.")
 	.br().br().br().br().br().br()
 ).class("contentstrip");
 
